@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15BB1A9B233F231EA37725C2 /* Pods_MobileRosetta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10A4D3857B028DF1E0E7D55 /* Pods_MobileRosetta.framework */; };
 		79121B85201920B200B465E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121B84201920B200B465E7 /* AppDelegate.swift */; };
 		79121B87201920B200B465E7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121B86201920B200B465E7 /* FirstViewController.swift */; };
 		79121B89201920B200B465E7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121B88201920B200B465E7 /* SecondViewController.swift */; };
@@ -15,6 +16,12 @@
 		79121B91201920B200B465E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79121B8F201920B200B465E7 /* LaunchScreen.storyboard */; };
 		79121B9C201920B200B465E7 /* MobileRosettaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121B9B201920B200B465E7 /* MobileRosettaTests.swift */; };
 		79121BA7201920B200B465E7 /* MobileRosettaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121BA6201920B200B465E7 /* MobileRosettaUITests.swift */; };
+		79121BB92019222C00B465E7 /* ParseJsonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121BB62019222C00B465E7 /* ParseJsonExample.swift */; };
+		79121BBA2019222C00B465E7 /* RxObserverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121BB72019222C00B465E7 /* RxObserverExample.swift */; };
+		79121BBB2019222C00B465E7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121BB82019222C00B465E7 /* Model.swift */; };
+		79121BBD2019226200B465E7 /* JsonExampleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121BBC2019226200B465E7 /* JsonExampleSpec.swift */; };
+		C9ADC0B1C29795EF3E2F79F7 /* Pods_MobileRosettaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC4525823233DF49CF439E5 /* Pods_MobileRosettaTests.framework */; };
+		F236613A400CA885F937EF6A /* Pods_MobileRosettaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1756F0D790BC49780CE2C /* Pods_MobileRosettaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F17374F8F9DD93B7B4E1A13 /* Pods-MobileRosettaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRosettaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRosettaUITests/Pods-MobileRosettaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F67AB00044C1F4C0860B38F /* Pods-MobileRosetta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRosetta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRosetta/Pods-MobileRosetta.debug.xcconfig"; sourceTree = "<group>"; };
 		79121B81201920B200B465E7 /* MobileRosetta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileRosetta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79121B84201920B200B465E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79121B86201920B200B465E7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		79121BA2201920B200B465E7 /* MobileRosettaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileRosettaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79121BA6201920B200B465E7 /* MobileRosettaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileRosettaUITests.swift; sourceTree = "<group>"; };
 		79121BA8201920B200B465E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79121BB62019222C00B465E7 /* ParseJsonExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseJsonExample.swift; sourceTree = "<group>"; };
+		79121BB72019222C00B465E7 /* RxObserverExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxObserverExample.swift; sourceTree = "<group>"; };
+		79121BB82019222C00B465E7 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		79121BBC2019226200B465E7 /* JsonExampleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonExampleSpec.swift; sourceTree = "<group>"; };
+		8CC4525823233DF49CF439E5 /* Pods_MobileRosettaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileRosettaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E563977743C3ED6C4BADC64 /* Pods-MobileRosetta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRosetta.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRosetta/Pods-MobileRosetta.release.xcconfig"; sourceTree = "<group>"; };
+		97529954579ABBDB55C325B1 /* Pods-MobileRosettaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRosettaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRosettaTests/Pods-MobileRosettaTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7A9CB88E7A52E5EA2E58B3C /* Pods-MobileRosettaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRosettaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRosettaUITests/Pods-MobileRosettaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E10A4D3857B028DF1E0E7D55 /* Pods_MobileRosetta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileRosetta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA1756F0D790BC49780CE2C /* Pods_MobileRosettaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileRosettaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1D990677AA39D6343D7A04 /* Pods-MobileRosettaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRosettaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRosettaTests/Pods-MobileRosettaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15BB1A9B233F231EA37725C2 /* Pods_MobileRosetta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ADC0B1C29795EF3E2F79F7 /* Pods_MobileRosettaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F236613A400CA885F937EF6A /* Pods_MobileRosettaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B9D4980BCB8F09AA7AFC7CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F67AB00044C1F4C0860B38F /* Pods-MobileRosetta.debug.xcconfig */,
+				8E563977743C3ED6C4BADC64 /* Pods-MobileRosetta.release.xcconfig */,
+				FD1D990677AA39D6343D7A04 /* Pods-MobileRosettaTests.debug.xcconfig */,
+				97529954579ABBDB55C325B1 /* Pods-MobileRosettaTests.release.xcconfig */,
+				1F17374F8F9DD93B7B4E1A13 /* Pods-MobileRosettaUITests.debug.xcconfig */,
+				C7A9CB88E7A52E5EA2E58B3C /* Pods-MobileRosettaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		79121B78201920B200B465E7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +119,8 @@
 				79121B9A201920B200B465E7 /* MobileRosettaTests */,
 				79121BA5201920B200B465E7 /* MobileRosettaUITests */,
 				79121B82201920B200B465E7 /* Products */,
+				1B9D4980BCB8F09AA7AFC7CC /* Pods */,
+				A3762357120D1C6D3C6E0439 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +137,8 @@
 		79121B83201920B200B465E7 /* MobileRosetta */ = {
 			isa = PBXGroup;
 			children = (
+				79121BB42019211300B465E7 /* src */,
 				79121B84201920B200B465E7 /* AppDelegate.swift */,
-				79121B86201920B200B465E7 /* FirstViewController.swift */,
-				79121B88201920B200B465E7 /* SecondViewController.swift */,
 				79121B8A201920B200B465E7 /* Main.storyboard */,
 				79121B8D201920B200B465E7 /* Assets.xcassets */,
 				79121B8F201920B200B465E7 /* LaunchScreen.storyboard */,
@@ -113,6 +150,7 @@
 		79121B9A201920B200B465E7 /* MobileRosettaTests */ = {
 			isa = PBXGroup;
 			children = (
+				79121BBC2019226200B465E7 /* JsonExampleSpec.swift */,
 				79121B9B201920B200B465E7 /* MobileRosettaTests.swift */,
 				79121B9D201920B200B465E7 /* Info.plist */,
 			);
@@ -128,6 +166,36 @@
 			path = MobileRosettaUITests;
 			sourceTree = "<group>";
 		};
+		79121BB42019211300B465E7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				79121BB82019222C00B465E7 /* Model.swift */,
+				79121BB62019222C00B465E7 /* ParseJsonExample.swift */,
+				79121BB72019222C00B465E7 /* RxObserverExample.swift */,
+				79121BB52019212300B465E7 /* view */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		79121BB52019212300B465E7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				79121B86201920B200B465E7 /* FirstViewController.swift */,
+				79121B88201920B200B465E7 /* SecondViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A3762357120D1C6D3C6E0439 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E10A4D3857B028DF1E0E7D55 /* Pods_MobileRosetta.framework */,
+				8CC4525823233DF49CF439E5 /* Pods_MobileRosettaTests.framework */,
+				EBA1756F0D790BC49780CE2C /* Pods_MobileRosettaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79121BAB201920B200B465E7 /* Build configuration list for PBXNativeTarget "MobileRosetta" */;
 			buildPhases = (
+				5AFEF94E15932EDFE3E5CD3C /* [CP] Check Pods Manifest.lock */,
 				79121B7D201920B200B465E7 /* Sources */,
 				79121B7E201920B200B465E7 /* Frameworks */,
 				79121B7F201920B200B465E7 /* Resources */,
+				CF305C9DBDBEFD68B8F5A81E /* [CP] Embed Pods Frameworks */,
+				7D331879C8C628829521D6D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79121BAE201920B200B465E7 /* Build configuration list for PBXNativeTarget "MobileRosettaTests" */;
 			buildPhases = (
+				2FC75E886BC03BC71CC33400 /* [CP] Check Pods Manifest.lock */,
 				79121B93201920B200B465E7 /* Sources */,
 				79121B94201920B200B465E7 /* Frameworks */,
 				79121B95201920B200B465E7 /* Resources */,
+				BEE06CFAB393D99B48DB74DD /* [CP] Embed Pods Frameworks */,
+				3F8A791A5AA4103830375E9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79121BB1201920B200B465E7 /* Build configuration list for PBXNativeTarget "MobileRosettaUITests" */;
 			buildPhases = (
+				892747EB7E7868026BA0B583 /* [CP] Check Pods Manifest.lock */,
 				79121B9E201920B200B465E7 /* Sources */,
 				79121B9F201920B200B465E7 /* Frameworks */,
 				79121BA0201920B200B465E7 /* Resources */,
+				3FC2BB08A4FEB31D1BE910E9 /* [CP] Embed Pods Frameworks */,
+				0C5975AE76DD66A4E6C584D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +334,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C5975AE76DD66A4E6C584D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileRosettaUITests/Pods-MobileRosettaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FC75E886BC03BC71CC33400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileRosettaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F8A791A5AA4103830375E9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileRosettaTests/Pods-MobileRosettaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FC2BB08A4FEB31D1BE910E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileRosettaUITests/Pods-MobileRosettaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AFEF94E15932EDFE3E5CD3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileRosetta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D331879C8C628829521D6D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileRosetta/Pods-MobileRosetta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		892747EB7E7868026BA0B583 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileRosettaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE06CFAB393D99B48DB74DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobileRosettaTests/Pods-MobileRosettaTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileRosettaTests/Pods-MobileRosettaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF305C9DBDBEFD68B8F5A81E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobileRosetta/Pods-MobileRosetta-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileRosetta/Pods-MobileRosetta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79121B7D201920B200B465E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +496,9 @@
 			files = (
 				79121B89201920B200B465E7 /* SecondViewController.swift in Sources */,
 				79121B85201920B200B465E7 /* AppDelegate.swift in Sources */,
+				79121BB92019222C00B465E7 /* ParseJsonExample.swift in Sources */,
+				79121BBB2019222C00B465E7 /* Model.swift in Sources */,
+				79121BBA2019222C00B465E7 /* RxObserverExample.swift in Sources */,
 				79121B87201920B200B465E7 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +508,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79121B9C201920B200B465E7 /* MobileRosettaTests.swift in Sources */,
+				79121BBD2019226200B465E7 /* JsonExampleSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +664,7 @@
 		};
 		79121BAC201920B200B465E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F67AB00044C1F4C0860B38F /* Pods-MobileRosetta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +680,7 @@
 		};
 		79121BAD201920B200B465E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E563977743C3ED6C4BADC64 /* Pods-MobileRosetta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +696,7 @@
 		};
 		79121BAF201920B200B465E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1D990677AA39D6343D7A04 /* Pods-MobileRosettaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +714,7 @@
 		};
 		79121BB0201920B200B465E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97529954579ABBDB55C325B1 /* Pods-MobileRosettaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +732,7 @@
 		};
 		79121BB2201920B200B465E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F17374F8F9DD93B7B4E1A13 /* Pods-MobileRosettaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +749,7 @@
 		};
 		79121BB3201920B200B465E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A9CB88E7A52E5EA2E58B3C /* Pods-MobileRosettaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
