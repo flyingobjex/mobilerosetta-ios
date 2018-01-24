@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79121B85201920B200B465E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121B84201920B200B465E7 /* AppDelegate.swift */; };
+		79121B87201920B200B465E7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121B86201920B200B465E7 /* FirstViewController.swift */; };
+		79121B89201920B200B465E7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121B88201920B200B465E7 /* SecondViewController.swift */; };
+		79121B8C201920B200B465E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79121B8A201920B200B465E7 /* Main.storyboard */; };
+		79121B8E201920B200B465E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79121B8D201920B200B465E7 /* Assets.xcassets */; };
+		79121B91201920B200B465E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79121B8F201920B200B465E7 /* LaunchScreen.storyboard */; };
+		79121B9C201920B200B465E7 /* MobileRosettaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121B9B201920B200B465E7 /* MobileRosettaTests.swift */; };
+		79121BA7201920B200B465E7 /* MobileRosettaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121BA6201920B200B465E7 /* MobileRosettaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79121B98201920B200B465E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79121B79201920B200B465E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79121B80201920B200B465E7;
+			remoteInfo = MobileRosetta;
+		};
+		79121BA3201920B200B465E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79121B79201920B200B465E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79121B80201920B200B465E7;
+			remoteInfo = MobileRosetta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79121B81201920B200B465E7 /* MobileRosetta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileRosetta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79121B84201920B200B465E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79121B86201920B200B465E7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		79121B88201920B200B465E7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		79121B8B201920B200B465E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79121B8D201920B200B465E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79121B90201920B200B465E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79121B92201920B200B465E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79121B97201920B200B465E7 /* MobileRosettaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileRosettaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79121B9B201920B200B465E7 /* MobileRosettaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileRosettaTests.swift; sourceTree = "<group>"; };
+		79121B9D201920B200B465E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79121BA2201920B200B465E7 /* MobileRosettaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileRosettaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79121BA6201920B200B465E7 /* MobileRosettaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileRosettaUITests.swift; sourceTree = "<group>"; };
+		79121BA8201920B200B465E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79121B7E201920B200B465E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79121B94201920B200B465E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79121B9F201920B200B465E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79121B78201920B200B465E7 = {
+			isa = PBXGroup;
+			children = (
+				79121B83201920B200B465E7 /* MobileRosetta */,
+				79121B9A201920B200B465E7 /* MobileRosettaTests */,
+				79121BA5201920B200B465E7 /* MobileRosettaUITests */,
+				79121B82201920B200B465E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79121B82201920B200B465E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79121B81201920B200B465E7 /* MobileRosetta.app */,
+				79121B97201920B200B465E7 /* MobileRosettaTests.xctest */,
+				79121BA2201920B200B465E7 /* MobileRosettaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79121B83201920B200B465E7 /* MobileRosetta */ = {
+			isa = PBXGroup;
+			children = (
+				79121B84201920B200B465E7 /* AppDelegate.swift */,
+				79121B86201920B200B465E7 /* FirstViewController.swift */,
+				79121B88201920B200B465E7 /* SecondViewController.swift */,
+				79121B8A201920B200B465E7 /* Main.storyboard */,
+				79121B8D201920B200B465E7 /* Assets.xcassets */,
+				79121B8F201920B200B465E7 /* LaunchScreen.storyboard */,
+				79121B92201920B200B465E7 /* Info.plist */,
+			);
+			path = MobileRosetta;
+			sourceTree = "<group>";
+		};
+		79121B9A201920B200B465E7 /* MobileRosettaTests */ = {
+			isa = PBXGroup;
+			children = (
+				79121B9B201920B200B465E7 /* MobileRosettaTests.swift */,
+				79121B9D201920B200B465E7 /* Info.plist */,
+			);
+			path = MobileRosettaTests;
+			sourceTree = "<group>";
+		};
+		79121BA5201920B200B465E7 /* MobileRosettaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79121BA6201920B200B465E7 /* MobileRosettaUITests.swift */,
+				79121BA8201920B200B465E7 /* Info.plist */,
+			);
+			path = MobileRosettaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79121B80201920B200B465E7 /* MobileRosetta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79121BAB201920B200B465E7 /* Build configuration list for PBXNativeTarget "MobileRosetta" */;
+			buildPhases = (
+				79121B7D201920B200B465E7 /* Sources */,
+				79121B7E201920B200B465E7 /* Frameworks */,
+				79121B7F201920B200B465E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileRosetta;
+			productName = MobileRosetta;
+			productReference = 79121B81201920B200B465E7 /* MobileRosetta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79121B96201920B200B465E7 /* MobileRosettaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79121BAE201920B200B465E7 /* Build configuration list for PBXNativeTarget "MobileRosettaTests" */;
+			buildPhases = (
+				79121B93201920B200B465E7 /* Sources */,
+				79121B94201920B200B465E7 /* Frameworks */,
+				79121B95201920B200B465E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79121B99201920B200B465E7 /* PBXTargetDependency */,
+			);
+			name = MobileRosettaTests;
+			productName = MobileRosettaTests;
+			productReference = 79121B97201920B200B465E7 /* MobileRosettaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79121BA1201920B200B465E7 /* MobileRosettaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79121BB1201920B200B465E7 /* Build configuration list for PBXNativeTarget "MobileRosettaUITests" */;
+			buildPhases = (
+				79121B9E201920B200B465E7 /* Sources */,
+				79121B9F201920B200B465E7 /* Frameworks */,
+				79121BA0201920B200B465E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79121BA4201920B200B465E7 /* PBXTargetDependency */,
+			);
+			name = MobileRosettaUITests;
+			productName = MobileRosettaUITests;
+			productReference = 79121BA2201920B200B465E7 /* MobileRosettaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79121B79201920B200B465E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mobilerosetta.org;
+				TargetAttributes = {
+					79121B80201920B200B465E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					79121B96201920B200B465E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79121B80201920B200B465E7;
+					};
+					79121BA1201920B200B465E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79121B80201920B200B465E7;
+					};
+				};
+			};
+			buildConfigurationList = 79121B7C201920B200B465E7 /* Build configuration list for PBXProject "MobileRosetta" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79121B78201920B200B465E7;
+			productRefGroup = 79121B82201920B200B465E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79121B80201920B200B465E7 /* MobileRosetta */,
+				79121B96201920B200B465E7 /* MobileRosettaTests */,
+				79121BA1201920B200B465E7 /* MobileRosettaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79121B7F201920B200B465E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79121B91201920B200B465E7 /* LaunchScreen.storyboard in Resources */,
+				79121B8E201920B200B465E7 /* Assets.xcassets in Resources */,
+				79121B8C201920B200B465E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79121B95201920B200B465E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79121BA0201920B200B465E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79121B7D201920B200B465E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79121B89201920B200B465E7 /* SecondViewController.swift in Sources */,
+				79121B85201920B200B465E7 /* AppDelegate.swift in Sources */,
+				79121B87201920B200B465E7 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79121B93201920B200B465E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79121B9C201920B200B465E7 /* MobileRosettaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79121B9E201920B200B465E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79121BA7201920B200B465E7 /* MobileRosettaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79121B99201920B200B465E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79121B80201920B200B465E7 /* MobileRosetta */;
+			targetProxy = 79121B98201920B200B465E7 /* PBXContainerItemProxy */;
+		};
+		79121BA4201920B200B465E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79121B80201920B200B465E7 /* MobileRosetta */;
+			targetProxy = 79121BA3201920B200B465E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79121B8A201920B200B465E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79121B8B201920B200B465E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79121B8F201920B200B465E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79121B90201920B200B465E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79121BA9201920B200B465E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79121BAA201920B200B465E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79121BAC201920B200B465E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J4G443Y75;
+				INFOPLIST_FILE = MobileRosetta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobilerosetta.MobileRosetta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79121BAD201920B200B465E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J4G443Y75;
+				INFOPLIST_FILE = MobileRosetta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobilerosetta.MobileRosetta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79121BAF201920B200B465E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J4G443Y75;
+				INFOPLIST_FILE = MobileRosettaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobilerosetta.MobileRosettaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileRosetta.app/MobileRosetta";
+			};
+			name = Debug;
+		};
+		79121BB0201920B200B465E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J4G443Y75;
+				INFOPLIST_FILE = MobileRosettaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobilerosetta.MobileRosettaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileRosetta.app/MobileRosetta";
+			};
+			name = Release;
+		};
+		79121BB2201920B200B465E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J4G443Y75;
+				INFOPLIST_FILE = MobileRosettaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobilerosetta.MobileRosettaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileRosetta;
+			};
+			name = Debug;
+		};
+		79121BB3201920B200B465E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J4G443Y75;
+				INFOPLIST_FILE = MobileRosettaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobilerosetta.MobileRosettaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileRosetta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79121B7C201920B200B465E7 /* Build configuration list for PBXProject "MobileRosetta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79121BA9201920B200B465E7 /* Debug */,
+				79121BAA201920B200B465E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79121BAB201920B200B465E7 /* Build configuration list for PBXNativeTarget "MobileRosetta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79121BAC201920B200B465E7 /* Debug */,
+				79121BAD201920B200B465E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79121BAE201920B200B465E7 /* Build configuration list for PBXNativeTarget "MobileRosettaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79121BAF201920B200B465E7 /* Debug */,
+				79121BB0201920B200B465E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79121BB1201920B200B465E7 /* Build configuration list for PBXNativeTarget "MobileRosettaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79121BB2201920B200B465E7 /* Debug */,
+				79121BB3201920B200B465E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79121B79201920B200B465E7 /* Project object */;
+}
