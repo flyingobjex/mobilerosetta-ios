@@ -8,18 +8,18 @@ import RxSwift
 
 class RxObserverExample {
 
-    let author:Observable<Author> = Observable.of(Author(name: nil, id: nil))
+    let author:PublishSubject<Author> = PublishSubject<Author>()
 
     private var currentName:String? = nil
     private var currentAuthorID:Int? = nil
 
-    private var disposeBag = DisposeBag()
+    private var dispose = DisposeBag()
     
     init() {
         author.subscribe(onNext:{ a in
             self.currentName = a.name
             self.currentAuthorID = a.id
-        }).disposed(by: disposeBag)
+        }).disposed(by: dispose)
     }
 
     func description() -> String {

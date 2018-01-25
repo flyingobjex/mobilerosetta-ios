@@ -11,6 +11,11 @@ struct Author: Codable {
     }
 
     let name:String?, id:Int?
+    init(_ name:String?, _ id:Int?) {
+        self.name = name
+        self.id = id
+    }
+    
 }
 
 struct PageCollection: Codable {
