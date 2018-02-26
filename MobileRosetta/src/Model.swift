@@ -19,8 +19,7 @@ struct WikiPage: Codable {
 }
 
 struct Section: Codable {
-    let heading: String?, paragraphs: Array<Paragraph>
-    , sections: Array<Section>?
+    let heading: String?, paragraphs: Array<Paragraph>, sections: Array<Section>?
 
     enum CodingKeys: String, CodingKey {
         case heading

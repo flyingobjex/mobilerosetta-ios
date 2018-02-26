@@ -4,8 +4,8 @@ PODS:
   - RxSwift (4.1.1)
 
 DEPENDENCIES:
-  - Nimble (~> 7.0)
-  - Quick (~> 1.2)
+  - Nimble
+  - Quick
   - RxSwift (~> 4.1)
 
 SPEC CHECKSUMS:
@@ -13,6 +13,6 @@ SPEC CHECKSUMS:
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
   RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
 
-PODFILE CHECKSUM: 68684aea1c7b698694f67b9ed9aae700f7713a44
+PODFILE CHECKSUM: 8ec04741295bda31ac4d9cd10322c3594ed0dfe2
 
 COCOAPODS: 1.4.0

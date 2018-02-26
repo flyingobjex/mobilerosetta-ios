@@ -20,6 +20,8 @@
 		79121BBD2019226200B465E7 /* JsonExampleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121BBC2019226200B465E7 /* JsonExampleSpec.swift */; };
 		7915AF702043DD8C00649EDB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121BB82019222C00B465E7 /* Model.swift */; };
 		7915AF712043DD9000649EDB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121BB82019222C00B465E7 /* Model.swift */; };
+		7915AF7320449DC600649EDB /* JsonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121BB62019222C00B465E7 /* JsonExample.swift */; };
+		7915AF7420449DC900649EDB /* RxObserverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79121BB72019222C00B465E7 /* RxObserverExample.swift */; };
 		7934229C201A3F8700834DB7 /* RxObserverExampleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7934229B201A3F8700834DB7 /* RxObserverExampleSpec.swift */; };
 		C9ADC0B1C29795EF3E2F79F7 /* Pods_MobileRosettaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC4525823233DF49CF439E5 /* Pods_MobileRosettaTests.framework */; };
 		F236613A400CA885F937EF6A /* Pods_MobileRosettaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA1756F0D790BC49780CE2C /* Pods_MobileRosettaUITests.framework */; };
@@ -510,6 +512,8 @@
 			files = (
 				7915AF702043DD8C00649EDB /* Model.swift in Sources */,
 				7934229C201A3F8700834DB7 /* RxObserverExampleSpec.swift in Sources */,
+				7915AF7320449DC600649EDB /* JsonExample.swift in Sources */,
+				7915AF7420449DC900649EDB /* RxObserverExample.swift in Sources */,
 				79121BBD2019226200B465E7 /* JsonExampleSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

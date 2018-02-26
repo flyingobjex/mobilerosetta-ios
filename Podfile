@@ -11,8 +11,8 @@ target 'MobileRosetta' do
   target 'MobileRosettaTests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 1.2'
-    pod 'Nimble', '~> 7.0'
+    pod 'Quick'
+    pod 'Nimble'
   end
 
   target 'MobileRosettaUITests' do
