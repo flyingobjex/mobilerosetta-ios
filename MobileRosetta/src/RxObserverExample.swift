@@ -1,8 +1,3 @@
-//
-// Created by objex on 1/23/18.
-// Copyright (c) 2018 flyingobjex. All rights reserved.
-//
-
 import Foundation
 import RxSwift
 
