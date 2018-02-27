@@ -4,7 +4,7 @@ import RxSwift
 class RxObserverExample {
 
     let section: BehaviorSubject<Section> =     // returns current value on subscribe()
-            BehaviorSubject<Section>(value: Section("--", [Paragraph](), [Section]()))
+            BehaviorSubject<Section>(value: Section("++", [Paragraph](), [Section]()))
 
     private var dispose = DisposeBag()
 
@@ -18,7 +18,7 @@ class RxObserverExample {
         })
     }
 
-    private (set) var details: String = "H:--, P:--, S:--"  // private setter, public getter
+    private (set) var details: String = "H:++, P:++, S:++"  // private setter, public getter
 
     var description: String {  // getter
         get {
