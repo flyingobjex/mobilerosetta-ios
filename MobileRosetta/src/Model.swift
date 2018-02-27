@@ -6,7 +6,6 @@ struct WikiPage: Codable {
         case title
         case sections
     }
-    
     let title: String, id: Int, sections: Array<Section>
 
     init(_ title: String = "none",
@@ -19,13 +18,13 @@ struct WikiPage: Codable {
 }
 
 struct Section: Codable {
-    let heading: String?, paragraphs: Array<Paragraph>, sections: Array<Section>?
-
     enum CodingKeys: String, CodingKey {
         case heading
         case paragraphs = "paragraphs_list"
         case sections
     }
+    let heading: String?, paragraphs: Array<Paragraph>, sections: Array<Section>?
+
     init(_ heading:String?,
          _ paragraphs:Array<Paragraph>,
          _ sections:Array<Section>?){
@@ -33,16 +32,15 @@ struct Section: Codable {
         self.paragraphs = paragraphs
         self.sections = sections
     }
-
 }
 
 struct Paragraph:Codable {
-    let id: Int, body: String
-
     enum CodingKeys: String, CodingKey {
         case id = "paragraph_id"
         case body
     }
+    let id: Int, body: String
+
     init(_ id:Int, _ body:String){
         self.id = id
         self.body = body
@@ -75,34 +73,4 @@ struct ExampleData {
               "paragraph_id": 3,
               "body": "Word7 word8 word9"
             }]}]}]}
-"""
-}
-
-
-struct Page: Codable {
-    let title: String?, pageid: Int?, author: Author?
-}
-
-struct Author: Codable {
-    enum CodingKeys: String, CodingKey {
-        case name
-        case id = "author_id"
-    }
-
-    let name: String?, id: Int?
-
-    init(_ name: String?, _ id: Int?) {
-        self.name = name
-        self.id = id
-    }
-
-}
-
-struct PageCollection: Codable {
-    enum CodingKeys: String, CodingKey {
-        case title
-        case entries = "entry_list"
-    }
-
-    let title: String?, entries: Array<Page>?
-}
+"""}

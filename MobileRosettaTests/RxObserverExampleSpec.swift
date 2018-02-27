@@ -7,12 +7,11 @@ import RxSwift
 
 class RxObserverExampleSpec: QuickSpec {
     override func spec() {
-
-        describe("The RxObserver example"){
+        describe("The RxObserver example") {
             var dispose = DisposeBag()
-
-            it("given an observable Section, when an update is made, it should send values to the subscribers" +
-                    "the 'subscribe' code block should run"){
+            it("given an observable Section, when an update is made, " +
+                    "then it should send values to the subscribers " +
+                    "causing the 'subscribe' code block to run") {
                 let example = RxObserverExample()
                 expect(example.details).to(equal("H:++, P:0, S:0"))
 
@@ -20,7 +19,7 @@ class RxObserverExampleSpec: QuickSpec {
                 example.section.subscribe(onNext: { it in
                     values += it.heading! + ","      // conditional assignment
                 }).disposed(by: dispose)
-                        
+
                 example.section.onNext(Section("H1", [Paragraph(1, "")], [Section]()))
                 expect(example.details).to(equal("H:H1, P:1, S:0"))
 
@@ -29,8 +28,6 @@ class RxObserverExampleSpec: QuickSpec {
 
                 expect(values).to(equal("++,H1,H2,"))
             }
-
-
         }
     }
 }

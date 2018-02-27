@@ -6,10 +6,8 @@ import Nimble
 
 class JsonExampleSpec: QuickSpec {
     override func spec() {
-
         describe("JSon Parsing Example"){
             let example = JsonExample()
-
             let page = example.parse(ExampleData().json)! // force unwrap to streamline tests
 
             it("should map raw json keys 'pageid' to 'id', 'paragraphs_list' to 'paragraphs'"){
@@ -24,8 +22,6 @@ class JsonExampleSpec: QuickSpec {
                 expect(page.title).to(equal("Wiki Page Title"))
             }
         }
-
-
     }
 }
 

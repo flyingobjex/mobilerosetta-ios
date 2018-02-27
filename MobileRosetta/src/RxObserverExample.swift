@@ -3,7 +3,7 @@ import RxSwift
 
 class RxObserverExample {
 
-    let section: BehaviorSubject<Section> =     // returns current value on subscribe()
+    let section: BehaviorSubject<Section> =
             BehaviorSubject<Section>(value: Section("++", [Paragraph](), [Section]()))
 
     private var dispose = DisposeBag()
