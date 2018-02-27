@@ -6,8 +6,6 @@ class RxObserverExample {
     let section: BehaviorSubject<Section> =
             BehaviorSubject<Section>(value: Section("++", [Paragraph](), [Section]()))
 
-    private var dispose = DisposeBag()
-
     init() {
         section.subscribe(onNext: { it in                   // Rx subscription
             print("onNext() section heading = \(it.heading)")
